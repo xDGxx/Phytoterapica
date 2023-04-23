@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    border-bottom: 0.2px solid rgb(233, 232, 232);
+}
+
+.menu p{
+    color: rgb(79, 79, 79);
+}
+
+.menu p:hover{
+    color: #98B020;
+}

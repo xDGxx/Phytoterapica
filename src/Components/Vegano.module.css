@@ -1,0 +1,9 @@
+.area{
+    width: 100%;
+    height: 120px;
+    background-image: url(vegano.png);
+    background-position: center;
+    background-size: 95%;
+    border-bottom: 1px solid rgb(108, 108, 108);
+    background-repeat: no-repeat;
+}

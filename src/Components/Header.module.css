@@ -1,0 +1,68 @@
+.header{
+    width: 99.9%;
+    height: 105px;
+    border: 0.2px solid rgb(233, 232, 232);
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 15%;
+    height: 40px;
+    border: 0.20px solid rgb(158, 158, 158) ;
+    border-radius: 20px;
+    align-items: center;
+    float: left;
+    top: 40px;
+    margin-right: 20px ;
+    left: 490px;
+}
+
+.desconto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 15%;
+    height: 40px;
+    border: 0.20px solid rgb(158, 158, 158) ;
+    border-radius: 20px;
+    align-items: center;
+    top: 40px;
+    font-size: 13px;
+    left: 500px;
+    
+}
+
+.desconto:hover{
+    background-color: #98B020 ;
+    color: #fff;
+}
+
+.logo{
+    background-image: url(./logo.png);
+    width: 25%;
+    height: 90px;
+    background-size: cover;
+    left: -30px;
+    top: -3px;
+    box-sizing: border-box;
+    display: flex;
+    float: left;
+}
+
+.icones{
+    display: flex;
+    float: right;
+    top: 10px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 0px;
+    
+}
+
+.icones:hover{
+    color: #98B020;
+}

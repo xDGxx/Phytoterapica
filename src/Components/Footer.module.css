@@ -1,0 +1,63 @@
+.fundo{
+    width: 100%;
+    height: 270px;
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.social{
+    width: 20%;
+    height: 60px;
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.sociais{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-right: 4px;
+    border-radius: 100px;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.sociais:hover{
+    color:  #98B020;
+    border-color: #98B020;
+}
+
+.pagamento{
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.pagamento h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.pagamento img{
+    margin-top: -20px;
+}
+
+.security{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.security h5{
+    font-size: 20px;
+    font-weight: 400;
+}

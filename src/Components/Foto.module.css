@@ -1,0 +1,16 @@
+.foto{
+    width: 100%;
+    height: 400px;
+    background-image: url(./natureza.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.90;
+    text-align: right;
+    color: black;
+    margin-top: -18px;
+}
+
+.foto h2{
+    margin-right: 80px;
+    padding-top: 100px;
+}
